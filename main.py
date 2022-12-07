@@ -311,7 +311,7 @@ Grafo.add_edge("Villavicencio", "Valledupar", weight=704)
 #Creamos nuestra interfaz
 
 #Algoritmo de dijkstra
-djk_path = nx.dijkstra_path(Grafo, source="Leticia", target="Riohacha", weight="weight")
+djk_path = nx.dijkstra_path(Grafo, source="Villavicencio", target="Riohacha", weight="weight")
 
 #Mostramos la solucion en pantalla
 print("La ruta mas corta es: ", djk_path)
